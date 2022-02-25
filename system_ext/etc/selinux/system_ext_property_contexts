@@ -1,0 +1,5 @@
+#line 1 "device/realme/RMX2020/sepolicy/private/property_contexts"
+persist.perf_profile u:object_r:perf_prop:s0
+#line 1 "device/statix/sepolicy/common/private/property_contexts"
+# Recovery update
+persist.sys.update_recovery         u:object_r:recovery_update_prop:s0
